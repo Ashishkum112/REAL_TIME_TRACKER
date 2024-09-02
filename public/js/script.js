@@ -1,4 +1,6 @@
-const socket = io('https://real-time-tracker-n8ey-git-main-ashishs-projects-3b8ada8b.vercel.app');
+const socket = io('/', {
+    transports: ['polling']
+});
 
 
 if(navigator.geolocation){
