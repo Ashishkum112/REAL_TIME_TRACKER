@@ -1,0 +1,9 @@
+/public
+    /css
+    /js
+/views
+    index.ejs
+/api
+    app.js
+vercel.json
+package.json
